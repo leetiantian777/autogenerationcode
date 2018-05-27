@@ -1,0 +1,27 @@
+{
+	"fileDirectory":"/Users/litiantian/Documents/jieyue-workdoc",
+	"packageName":"com.demo.example",
+	"className":"BindCard",
+	"methodName":"BindCardLimitQuery",
+	"reqAttributes":{
+		"pid":"注释",
+	    "mobile":"18500986241",
+	    "ecifId":"CR20182127971130",
+	    "bankAcctName":"张二",
+	    "bankAcctNo":"6217900600015171864",
+	    "bankCode":"104",
+	    "isAppFlg":"1",
+	    "trustChannelCode":"02"
+		},
+	"resAttributes":{
+		"sysSource":"系统来源	",
+		"transNo":"前端交易流水号",
+		"transTime":"前端交易流水号",
+		"retCode":"返回码",
+		"retMsg":"返回信息",
+		"accountTotalAmount":"账户余额",
+		"custCode":"客户编号",
+		"reqId":"请求流水号",
+		"useAmount":"可用余额"
+		}
+}
