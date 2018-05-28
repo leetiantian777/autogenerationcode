@@ -36,7 +36,7 @@ public class CodeGeneration {
             Map<String,String> reqAttributes =(Map<String,String>)JSONObject.parse(jsonObject.get("reqAttributes").toString());
             reqAttributes.forEach((k,v)->reqattributes.add(new AttributeVO(k,v)));
             Map<String,String> resAttributes =(Map<String,String>)JSONObject.parse(jsonObject.get("resAttributes").toString());
-            reqAttributes.forEach((k,v)->resAttList.add(new AttributeVO(k,v)));
+            resAttributes.forEach((k,v)->resAttList.add(new AttributeVO(k,v)));
             Map<String,Object>ftlShowMap = new HashMap<>();
             ftlShowMap.put("fileDirectory",jsonObject.get("fileDirectory"));
             ftlShowMap.put("packageName",jsonObject.get("packageName"));
