@@ -1,5 +1,5 @@
 package ${packageName};
-public class Request${className}Param {
+public class Request${className} {
 
     <#list attributes as attribute>
          /***${attribute.note}**/

@@ -15,9 +15,9 @@ public class ${className}Service {
 private Log logger = LogFactory.getLog(${className}Service.class);
 
 @Autowired
-private ${className}Interface ${className}Interface;
+private ${className}Interface ${className2}Interface;
 
-public Response${className}Param ${methodName}(Request${className}Param tRequest${className}Param, String reqUniqueCode) throws AppException{
+public Response${className}Param ${methodName}(Request${className}Param tRequest${className2}Param, String reqUniqueCode) throws AppException{
 ResponseBind${className}Param tResponse${className}Param = ${className}Interface.${methodName}(tRequest${className}Param, reqUniqueCode);
 return tResponse${className}Param;
 }
